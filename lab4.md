@@ -140,6 +140,7 @@ sudo systemctl enable hello.service
 sudo debootstrap stable /var/lib/machines/demo
 sudo systemd-nspawn -D /var/lib/machines/demo
 ```
+В случае с Astra репозиторий stable резила не найдется, он должен быть заменен на вашу версию системы, посмотреть ее можно выполнив команду `lsb_release -a`
 
 Запуск контейнера как службы:
 ```bash
