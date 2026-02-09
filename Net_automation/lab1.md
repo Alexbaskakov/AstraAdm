@@ -183,7 +183,7 @@ ip route add 10.0.2.0/24 via 10.0.12.2
 
 ЕСЛИ НЕТ команды ip:
 ifconfig eth0 address 10.0.1.1/24
-ifocnfig eth1`address 10.0.12.1/24
+ifconfig eth1 address 10.0.12.1/24
 route add -net 10.0.2.0 netmask 255.255.255.0 gw 10.0.12.2
 ```
 
