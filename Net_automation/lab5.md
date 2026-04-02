@@ -191,7 +191,7 @@ nano router/handlers/main.yml
   become: true
   ```
 # 4. Создание роли mikrotik
-⚠️ В учебной работе роль демонстрационная.
+
 
 ### 4.1 Создание роли
 ```
